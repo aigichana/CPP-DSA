@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cctype>
+using namespace std;
+
+void checkCase(char ch) {
+    if (isupper(ch))
+        cout << "The character is Uppercase." << endl;
+    else if (islower(ch))
+        cout << "The character is Lowercase." << endl;
+    else
+        cout << "The character is not an alphabetic letter." << endl;
+}
+
+int main() {
+    char character;
+    cout << "Enter a character: ";
+    cin >> character;
+
+    checkCase(character);
+
+    return 0;
+}
