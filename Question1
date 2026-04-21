@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    long days;
+    cout << "Enter the number of days: ";
+    cin >> days;
+
+    long seconds = days * 86400;
+    cout << "The number of seconds is " << seconds << endl;
+
+    return 0;
+}
